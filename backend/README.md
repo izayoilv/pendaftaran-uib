@@ -83,7 +83,7 @@ go mod download
 Run migrations:
 
 ```bash
-go install -tags 'mysql' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+go install -tags 'mysql' github.com/golang-migrate/migrate/v4/cmd/migrate@v4.20.1
 
 migrate \
   -path migrations \
@@ -100,7 +100,7 @@ go run ./cmd/server
 Start with live reload:
 
 ```bash
-go install github.com/air-verse/air@latest
+go install github.com/air-verse/air@v1.67.1
 air -c .air.toml
 ```
 
