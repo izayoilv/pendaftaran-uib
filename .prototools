@@ -1,0 +1,6 @@
+go = "1.25"
+node = "22.23"
+pnpm = "11.8"
+
+[settings]
+unstable-lockfile = true
